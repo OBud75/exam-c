@@ -1,0 +1,6 @@
+// compile
+g++ -c main.cpp -o main.o
+g++ main.o -o hashage -lssl -lcrypto
+
+//launch
+./hashage
