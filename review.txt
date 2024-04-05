@@ -1,0 +1,12 @@
+Utilisez les fichiers hpp uniquement pour déclarer les signatures des classes et fonctions (sans les implémenter).
+Puis on implémente dans les fichiers source .cpp
+
+Le but de l'exercice était que vous codiez votre logique de la facon la plus claire possible.
+Vous pouviez trouver un algorithme d'encryption très simple (voir en inventer un) et l'implémenter en le comprennant.
+Ici, que signifient EVP_MD_CTX, mdctx, EVP_Diges ou encore reinterpret_cast?
+
+D'ailleurs il est interessant de voir que vous ajouter des commentaires pour préciser que hashPassword est une méthode qui hash le mot de passe mais jamais pour indiquer ce que fait EVP_DigestUpdate...
+
+Vous êtes responsable du code que vous produisez. Comment pouvez vous savoir que la librairie que vous avez utilisé fait effectivement ce que vous voulez ou même qu'elle ne contient pas un virus ? (je suis très serieux : https://www.youtube.com/watch?v=jqjtNDtbDNI)
+
+9/20

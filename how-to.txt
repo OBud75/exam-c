@@ -4,3 +4,9 @@ g++ main.o -o hashage -lssl -lcrypto
 
 //launch
 ./hashage
+
+
+
+// compile en 1 seule étape:
+g++ main.cpp Database.cpp -o main.o -lcrypto
+puis directement ./main.o
